@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toast_bg"
+    android:minHeight="40dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@android:id/message"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="16sp"
+        android:textColor="#fff"/>
+</LinearLayout>
