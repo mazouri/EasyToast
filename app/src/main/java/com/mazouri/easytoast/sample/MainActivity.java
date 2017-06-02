@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 EasyToast.makeText(MainActivity.this, "这是一条提示语", Toast.LENGTH_SHORT, Gravity.CENTER).show();
                 break;
             case R.id.fab_end:
-                EasyToast.makeText(MainActivity.this, "这是一条提示语", Toast.LENGTH_SHORT).show();
+                EasyToast.makeText(MainActivity.this, "这是一条提示语,这是一条提示语,这是一条提示语,这是一条提示语", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
